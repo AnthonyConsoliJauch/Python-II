@@ -1,0 +1,6 @@
+nome = (input("Sr(a), insira o nome do empregado."))
+nht= int(input("Sr, insira o numero de horas que voce trabalha."))
+vph = int(input("Agora, insira o valor pago por hora."))
+salario = (vph) * (nht)
+print(salario)
+print("Olá sr.", nome, "seu Salario bruto e liquido final é de ", salario)
