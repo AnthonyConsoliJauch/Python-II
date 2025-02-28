@@ -10,5 +10,5 @@ elif salario>=2501 and salario <4000:
 else:
     desconto=salario * 0.15
 salario=salario-desconto
-print(f'Salário a receber é de R${salario}0, ')
-print(f'desconto aplicado é de de R${desconto}0, ')
+print(f'Salário a receber é de R${salario}0 ')
+print(f'desconto aplicado é de de R${desconto}0 ')
