@@ -1,6 +1,6 @@
 nome = (input("Sr(a), insira o nome do empregado(a).")) 
-nht= int(input("Sr(a), insira o numero de horas que voce trabalha.")) 
-vph = int(input("Agora, insira o valor pago por hora.")) 
+nht= float(input("Sr(a), insira o numero de horas que voce trabalha.")) 
+vph = float(input("Agora, insira o valor pago por hora.")) 
 discount = float(input("Insira o valor do desconto em porcentagem: "))  
 salario = (vph) * (nht) 
 print(salario) 
